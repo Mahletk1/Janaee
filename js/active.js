@@ -73,7 +73,7 @@
       loop: true,
       nav: true,
       navText: [
-        '<i class="fas fa-chevron-up"></i>',
+        '<i class="fas fa-chevron-up" style="z-index: 9999"></i>',
         '<i class="fa fa-angle-right"></i>',
       ],
       dots: false,
@@ -142,7 +142,7 @@
   if ($.fn.scrollUp) {
     browserWindow.scrollUp({
       scrollSpeed: 1500,
-      scrollText: '<i class="fas fa-chevron-up"></i>',
+      scrollText: '<i class="fas fa-chevron-up" style="z-index: 9999"></i>',
     });
   }
 
